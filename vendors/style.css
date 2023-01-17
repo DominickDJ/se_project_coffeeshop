@@ -1,0 +1,183 @@
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+.header {
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  padding-top: 30px;
+  position: relative;
+  box-sizing: border-box;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 125px;
+  height: 142px;
+  padding-left: 30px;
+}
+
+.nav__links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  font-style: normal;
+  font-weight: 500;
+  padding-right: 80px;
+  margin: 0;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav__link:hover {
+  color: #2f80ed;
+}
+.header__title {
+  font-weight: normal;
+  max-width: 729px;
+}
+.header__span-accent {
+  display: flex;
+  font-family: Noto Serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2f80ed;
+}
+.header__title_content {
+}
+.header__description {
+  max-width: 683px;
+  line-height: 30px;
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+.header__image {
+  display: flex;
+  position: absolute;
+  top: 124px;
+  right: 5px;
+  max-width: 636px;
+  z-index: -1;
+}
+.header__paragraph {
+  display: flex;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.heading__list {
+  list-style-type: none;
+}
+.heading__list-item {
+}
+.header__paragraph_address {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.menu {
+  background-color: #0a2750;
+  color: white;
+}
+.menu__title {
+  text-align: center;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 0 0 24px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+.menu__subtitle {
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  margin: 24px 0 0;
+}
+.card {
+}
+.card__title {
+}
+.card__list-item {
+}
+.card__list-divider {
+}
+.menu__logo {
+}
+.recipes {
+}
+.recipes__title {
+}
+.recipes__subtitle {
+}
+.recipes__videos {
+}
+.recipes__iframe {
+}
+.recipes__video-caption {
+}
+.reservations {
+}
+.reservations__title {
+}
+.reservation_form {
+}
+.form__fieldset {
+}
+.form__label {
+}
+.form__input {
+}
+.form__button {
+}
+.form__checkbox {
+}
+.about {
+}
+.about__title .about__content {
+}
+.about__paragraph {
+}
+.about__circle {
+}
+.footer {
+}
+.footer__content {
+}
+.footer__logo {
+}
+.footer__social-heading {
+}
+.footer__list {
+}
+.footer__social-icon {
+}
+.footer__social-link {
+}
+.footer__copyright {
+}
