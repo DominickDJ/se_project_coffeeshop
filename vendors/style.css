@@ -142,16 +142,18 @@
 .cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  padding-bottom: 100px;
   padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 .card {
   display: flex;
   flex-basis: 45%;
   flex-direction: column;
   max-width: 600px;
+  margin-bottom: 100px;
 }
 .card__title {
   font-family: "Inter";
@@ -224,6 +226,12 @@
   padding-top: 24px;
 }
 .recipe__caption-divider {
+  min-width: 50px;
+  height: 1px;
+  flex-grow: 1;
+  display: flex;
+}
+.recipes__background {
 }
 .reservations {
   background-color: #d9e7ff;
@@ -324,9 +332,8 @@
   width: 426px;
   height: 426px;
   border-radius: 50%;
-  z-index: -1;
+  z-index: 1;
   display: flex;
-  position: absolute;
   top: -152px;
   left: -129px;
 }
