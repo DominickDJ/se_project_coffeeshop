@@ -14,10 +14,10 @@
   position: relative;
   box-sizing: border-box;
 }
+
 .nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .logo {
@@ -48,10 +48,12 @@
 .header__title {
   font-weight: normal;
   max-width: 729px;
+  padding-left: 80px;
+  padding-top: 80px;
 }
 .header__span-accent {
-  display: flex;
-  font-family: Noto Serif;
+  display: block;
+  font-family: "Noto" Serif;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
@@ -59,6 +61,11 @@
   color: #2f80ed;
 }
 .header__title_content {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
 }
 .header__description {
   max-width: 683px;
@@ -67,10 +74,12 @@
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
-  line-height: 30px;
+  display: flex;
+  padding-left: 80px;
 }
 .header__image {
   display: flex;
+  flex-wrap: wrap;
   position: absolute;
   top: 124px;
   right: 5px;
@@ -84,11 +93,18 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  position: absolute;
+  bottom: 40px;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
 }
 .heading__list {
   list-style-type: none;
+  padding-left: 80px;
 }
 .heading__list-item {
+  color: #838383;
 }
 .header__paragraph_address {
   font-family: Inter;
@@ -96,6 +112,9 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  display: flex;
+  margin-right: 80px;
+  color: #838383;
 }
 .menu {
   background-color: #0a2750;
@@ -105,79 +124,266 @@
   text-align: center;
   font-size: 44px;
   line-height: 52px;
-  margin: 0 0 24px;
-  font-family: Inter;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 52px;
+  padding-top: 100px;
+}
+.menu__subtitle {
+  max-width: 780px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  margin: auto;
+  padding-top: 24px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+.card {
+  display: flex;
+  flex-basis: 45%;
+  flex-direction: column;
+  max-width: 600px;
+}
+.card__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  list-style-type: none;
+  padding-bottom: 32px;
+}
+.card__content {
+  padding: 0;
+}
+.card__list-item {
+  list-style-type: none;
+  font-family: "Noto", Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  padding-bottom: 16px;
+  line-height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.card__list-divider {
+  min-width: 50px;
+  height: 1px;
+  background-color: #ffffff;
+  flex-grow: 1;
+  display: flex;
+}
+.recipes {
+  background-color: #ffffff;
+}
+.recipes__title {
+  max-width: 580px;
+  padding-left: 80px;
+  padding-top: 100px;
+  padding-bottom: 24px;
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
 }
-.menu__subtitle {
-  text-align: center;
+.recipes__subtitle {
+  max-width: 483px;
+  padding-left: 80px;
+  padding-bottom: 80px;
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  font-weight: 400;
-  margin: 24px 0 0;
-}
-.card {
-}
-.card__title {
-}
-.card__list-item {
-}
-.card__list-divider {
-}
-.menu__logo {
-}
-.recipes {
-}
-.recipes__title {
-}
-.recipes__subtitle {
 }
 .recipes__videos {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 215px;
 }
 .recipes__iframe {
 }
 .recipes__video-caption {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  padding-top: 24px;
+}
+.recipe__caption-divider {
 }
 .reservations {
+  background-color: #d9e7ff;
+  background-position: center;
+  size: cover;
 }
 .reservations__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 80px;
 }
 .reservation_form {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 120px;
 }
 .form__fieldset {
+  border: none;
+  display: flex;
 }
 .form__label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  padding-bottom: 8px;
+  align-items: center;
 }
 .form__input {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+  border-radius: 4px;
+  max-width: 385px;
+  padding-bottom: 32px;
+  justify-content: center;
+  align-items: center;
 }
 .form__button {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 4px;
+  height: 60px;
+}
+.form__button:hover {
+  opacity: 70%;
+  transition: 2s ease-in-out;
 }
 .form__checkbox {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 2px;
+  width: 20px;
+  height: 20px;
 }
 .about {
+  background-color: #0a2750;
+  color: #ffffff;
 }
-.about__title .about__content {
+.about__title {
+  display: flex;
+  max-width: 251px;
+  padding-top: 100px;
+  padding-left: 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+.about__content {
+  max-width: 660px;
 }
 .about__paragraph {
+  font-family: "Noto", Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 .about__circle {
+  background-color: #2f80ed;
+  width: 426px;
+  height: 426px;
+  border-radius: 50%;
+  z-index: -1;
+  display: flex;
+  position: absolute;
+  top: -152px;
+  left: -129px;
 }
 .footer {
+  padding: 60px 100px 60px 80px;
+  box-sizing: border-box;
+  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
+  color: #fff;
 }
-.footer__content {
+
+.footer__columns {
+  display: flex;
 }
+
+.footer__column_content_social {
+  margin-left: 100px;
+}
+
 .footer__logo {
+  width: 116px;
+  height: 21px;
 }
-.footer__social-heading {
-}
+
 .footer__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item {
+  margin-bottom: 16px;
+}
+
+.footer__list-item:last-of-type {
+  margin-bottom: 0;
+}
+.footer__column-heading {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 0 20px;
+}
+
+.footer__column-link {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.footer__column-link:hover {
+  color: #c1c1c1;
 }
 .footer__social-icon {
-}
-.footer__social-link {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
 }
 .footer__copyright {
 }
