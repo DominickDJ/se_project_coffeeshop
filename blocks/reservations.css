@@ -12,6 +12,7 @@
   line-height: 52px;
   text-align: center;
   padding-top: 100px;
+  padding-left: 60px;
 }
 .form {
   padding: 20px 128x;
@@ -20,7 +21,6 @@
 
 .reservation_form {
   box-sizing: border-box;
-  max-width: 641px;
   margin: 0 auto;
 }
 
@@ -95,4 +95,6 @@
   border-radius: 2px;
   width: 20px;
   height: 20px;
+  display: flex;
+  flex-direction: row;
 }
