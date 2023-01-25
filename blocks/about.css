@@ -55,7 +55,7 @@
   left: -129px;
   position: absolute;
 }
-.about__circle__animation_blurred {
+.about__circle_animation_blurred {
   transform-origin: center;
   animation: pulsate 1.3s ease-in-out 0s infinite;
 }
