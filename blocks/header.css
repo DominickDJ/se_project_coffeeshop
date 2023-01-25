@@ -65,23 +65,9 @@
   position: absolute;
   bottom: 40px;
   justify-content: space-between;
-  align-items: flex-end;
   width: 100%;
-}
-.header__list {
+  color: #838383;
   list-style-type: none;
   padding-left: 80px;
-}
-.header__list-item {
-  color: #838383;
-}
-.header__paragraph_address {
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  display: flex;
-  margin-right: 80px;
-  color: #838383;
+  flex-direction: column;
 }
