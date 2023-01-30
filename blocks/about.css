@@ -19,7 +19,6 @@
   justify-content: space-between;
   overflow: hidden;
   padding-right: 80px;
-  padding-top: 119px;
   padding-bottom: 173px;
 }
 .about__title {
@@ -31,11 +30,14 @@
   font-size: 44px;
   line-height: 52px;
   z-index: 1;
+  padding-top: 100px;
+  margin: 0;
 }
 .about__content {
   max-width: 660px;
   display: flex;
   flex-direction: column;
+  padding-top: 119px;
 }
 .about__paragraph {
   font-family: "Noto Serif", "Times New Roman", serif;
@@ -44,6 +46,9 @@
   font-size: 20px;
   line-height: 30px;
   margin: 0 0 20px;
+}
+.about__paragraph:last-of-type {
+  margin-bottom: 0;
 }
 .about__circle {
   background-color: #2f80ed;
