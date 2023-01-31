@@ -28,11 +28,8 @@
 .menu__cards {
   display: flex;
   flex-wrap: wrap;
+  padding: 100px 100px 100px 100px;
   gap: 100px;
-  align-items: center;
-  padding-top: 100px;
-  padding-left: 100px;
-  padding-right: 100px;
 }
 .menu__cards:last-of-type {
   justify-content: center;

@@ -5,7 +5,6 @@
 .reservation__form {
   box-sizing: border-box;
   margin: 0 auto;
-  padding-top: 80px;
 }
 
 .form__fieldset {
@@ -45,14 +44,13 @@
   font-size: 20px;
   line-height: 30px;
   border-radius: 4px;
-  padding-bottom: 19px;
-  padding-top: 19px;
-  padding-left: 20px;
-  padding-right: 20px;
+  height: 60px;
   width: 100%;
   box-sizing: border-box;
   border: 1px solid #838383;
   color: #838383;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 .form__input::placeholder {
   color: #838383;
